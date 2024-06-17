@@ -1,0 +1,22 @@
+.imagenes {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid darkblue;
+    width: fit-content;
+
+}
+.imagenes img {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+}
+
+table {
+    text-align: center;
+    width: 70%;
+    border-collapse: collapse;
+    border-style: hidden;
+    background-color: #062870;
+}
