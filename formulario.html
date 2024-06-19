@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="estilos/forms.css">
+</head>
+<body>
+    <div class="contenedor">
+        <img src="images/socius.jfif" alt="Socius">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                        <br>
+                        <input type="password" name="password" id="password" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="ciudad">Ciudad:</label>
+                        <br>
+                        <select name="ciudad" id="ciudad" required>
+                            <option value="1">Santiago</option>
+                            <option value="2">Valparaiso</option>
+                            <option value="3">Villa Alemana</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="checkbox-contenedor">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Recordar password</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
